@@ -16,15 +16,17 @@
 <body>
     <div class="container-fluid">
         <div class="jumbotron-fluid">
+                <div class=" jumbotron-overlay">
             <img src="../Delani-studio/assets/logo/logo.png" alt="a photo of logo">
+            
             <h1>WELCOME <br>TO DELANI STUDIO </h1>
             <p class="text-white">AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
             <br>
             <img src="../Delani-studio/assets/mouse_click.png" alt="photo of a mouse_click">
-
+        </div>
         </div>
         <div class="jumbotron bg-white">
-            <h2>ABOUT US</h2>
+            <h2 class="text-center">ABOUT US</h2>
             <P>When you work with us, you are apart of a team of committed collaborators.
                 All aspects of our software development process are intergrated, interactive and agile.</p>
             <br>
@@ -106,22 +108,30 @@
             <div class="c-overlay">
                 <br>
                 <h1>CONTACT US</h1>
-                <div class="form">
-                    <div class="form-group col-sm-5 offset-sm-3 text-center ">
-                        <label for="usr">Name:</label>
-                        <input type="text" class="form-control" id="usr">
+                <div class="col-md-12 form">
+                    <div class="row">
+                        <div class="col-md-2"></div>
+                        <input type="text" class="form-control col-md-4" placeholder="Name">
+                        <input type="email" class="form-control col-md-4" placeholder="Email">
+                        <div class="col-md-2"></div>
+
                     </div>
-                    <div class="form-group col-sm-5 offset-sm-3 text-center">
-                        <label for="usr">Email:</label>
-                        <input type="password" class="form-control" id="email">
-                    </div>
-                    <div class="form-groupcol-sm-5 offset-sm-3 text-center">
-                            <label for="comment">Comment:</label>
-                            <textarea class="form-control" rows="3" id="comment"></textarea>
-                          </div>
+
+
                 </div>
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <textarea class="form-control col-md-8" id="textarea" rows="8"></textarea>
+                    <div class="col-md-2"></div>
+
+                </div>
+                <button type="button" class="btn btn-primary">SUBMIT</button>
+
+
             </div>
         </div>
+    </div>
+    </div>
 
 
     </div>

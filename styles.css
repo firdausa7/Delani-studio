@@ -4,22 +4,22 @@
     background-size: cover;
     text-align: center;
     padding-top: 100px;
-   
-
 }
+
 .jumbotron-fluid h1{
     padding-top: 40px;
     font-family: 'Noto Sans', sans-serif;
     color: white;
-    font-size: 70px;
+    font-size: 50px;
 }
 .jumbotron-fluid p{
     font-size: 15px;
     border-radius: 0px;
 }
 
-.jumbotron bg-success{
+.jumbotron bg-white{
     text-align: center;
+
 }
 .fridah{
     background-image: url("../Delani-studio/assets/backgrounds/s_image.jpg");
@@ -45,10 +45,15 @@ figure {
 }
 .c{
     background-image: url("../Delani-studio/assets/backgrounds/c_image.jpg");
-    height: 350px;
+    height: 400px;
     margin-top: 1%;
 }
 .c-overlay{
     background-color: rgba(0, 0, 0, 0.5);
-    height:350px;
+    height:400px;
+}
+input[type=text],input[type=email],#textarea{
+    background: transparent;
+    margin: 10px;
+    
 }
