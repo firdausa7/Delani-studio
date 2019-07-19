@@ -44,5 +44,7 @@ figure {
     padding-top: 20px;
 }
 .c{
-    background-image: url("../Delani-studio/assets/backgrounds/c_image.jpg")
+    background-image: url("../Delani-studio/assets/backgrounds/c_image.jpg");
+    height: 350px;
+    margin-top: 0.20%;
 }
