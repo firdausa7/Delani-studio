@@ -46,5 +46,9 @@ figure {
 .c{
     background-image: url("../Delani-studio/assets/backgrounds/c_image.jpg");
     height: 350px;
-    margin-top: 0.20%;
+    margin-top: 1%;
+}
+.c-overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    height:350px;
 }
