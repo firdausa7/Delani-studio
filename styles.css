@@ -14,7 +14,8 @@
 .jumbotron-fluid p{
     font-size: 15px;
 }
-.jumbotron-ty{
-    background-image: url("../Delani-studio/assets/backgrounds/s_image.jpg")
+.fridah{
+    background-image: url("../Delani-studio/assets/backgrounds/s_image.jpg");
+    background-size: cover;
 }
 
