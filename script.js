@@ -24,3 +24,7 @@ $("#p3").click(function () {
     $("#p3").hide();
     $("#d3").show();
 });
+
+// Get the logo, and when the user clicks on it, execute myFunction
+//document.getElementById("#pic2").onclick = function() {myFunction()};
+//$("#pic2").attr("href", "https://www.youtube.com/watch?v=S-Ui9wzcO5g");
