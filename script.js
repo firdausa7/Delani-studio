@@ -28,3 +28,19 @@ $("#p3").click(function () {
 // Get the logo, and when the user clicks on it, execute myFunction
 //document.getElementById("#pic2").onclick = function() {myFunction()};
 //$("#pic2").attr("href", "https://www.youtube.com/watch?v=S-Ui9wzcO5g");
+
+  $("#pic1").click(function(){
+  $("#pic1").slideUp(2000).slideDown(2000);
+});
+/**function validateForm() {
+    var x = document.forms["form"]["name"].value;
+    if (x == "") {
+      alert("Name must be filled out");
+      return false;
+     */
+    function validation() {
+        if (document.getElementById("name").value =="") {
+            alert("Please enter name");
+            return false;
+        }
+    }
