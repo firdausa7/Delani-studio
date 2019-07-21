@@ -38,9 +38,7 @@ $("#p3").click(function () {
       alert("Name must be filled out");
       return false;
      */
-    function validation() {
-        if (document.getElementById("name").value =="") {
-            alert("Please enter name");
-            return false;
-        }
-    }
+    
+    $("#button").click(function(){
+        alert("THANK YOU, HAVE A NICE DAY");
+      });

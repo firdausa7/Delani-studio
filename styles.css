@@ -27,7 +27,7 @@
     text-align: center;
 
 }
-.fridah{
+.services{
     background-image: url("../Delani-studio/assets/backgrounds/s_image.jpg");
     background-size: cover;
     height: 300px;
@@ -35,7 +35,7 @@
     font-family: 'Noto Sans', sans-serif;
 
 }
-.overlay{
+.services-overlay{
     background-color: rgba(0, 0, 0, 0.5);
     height:300px;
 }
@@ -46,10 +46,10 @@
 figure {
     padding-top: 40px;
 }
-.a{
+.what-we-do{
     padding-top: 20px;
 }
-.c{
+.contact-us{
     background-image: url("../Delani-studio/assets/backgrounds/c_image.jpg");
     height: 400px;
     margin-top: 1%;
