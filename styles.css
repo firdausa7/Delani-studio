@@ -90,19 +90,169 @@ input[type=text],input[type=email],#textarea{
     100% { transform: translate(1px, -2px) rotate(-1deg); }
   }
 .overlay1{
-    background-color: rgba(0, 0, 0, 0.5);
-    height: 180px;
-    display: none;
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 230px;
+    visibility: hidden;
 
 }
 #one{
     background-image: url("../Delani-studio/assets/portfolio/work4.jpg");
-    height:180px;
+    height:230px;
+    padding: 0;
+    margin: 0;
 }
-#one:hover{
+#pp{
+    color: orangered;
+padding-top: 75px;
+visibility: hidden;
+font-size: 50px
+}
+#one:hover #pp{
+    visibility: visible;
 
+}
+#one:hover .overlay1{
+    visibility: visible;
 }
 img:hover{
     opacity: 0.3;
     
 }
+#two{
+    background-image: url("../Delani-studio/assets/portfolio/work3.jpg");
+    height: 230px;
+    padding: 0;
+    margin: 0;
+
+}
+#pp1{
+    color: orangered;
+padding-top: 75px;
+visibility: hidden;
+font-size: 50px
+}
+#two:hover #pp1{
+    visibility: visible;
+
+}
+#two:hover .overlay1{
+    visibility: visible;
+}
+#three {
+    background-image: url("../Delani-studio/assets/portfolio/work2.jpg");
+    height:230px;
+     padding: 0;
+     margin: 0;
+    }
+    #pp2{
+        color: orangered;
+    padding-top: 75px;
+    visibility: hidden;
+    font-size: 50px;
+    }
+    #three:hover #pp2{
+        visibility: visible;
+    
+    }
+    #three:hover .overlay1{
+        visibility: visible;
+    }
+    #four{
+        background-image: url("../Delani-studio/assets/portfolio/work1.jpg");
+     height:230px;
+    padding: 0;
+    margin: 0;
+    }
+
+    #pp3{
+        color: orangered;
+    padding-top: 75px;
+    visibility: hidden;
+    font-size: 50px;
+    }
+    #four:hover #pp3{
+        visibility: visible;
+    
+    }
+    #four:hover .overlay1{
+        visibility: visible;
+    }
+    #five{
+        background-image: url("../Delani-studio/assets/portfolio/work5.jpg");
+     height:230px;
+    padding: 0;
+    margin: 0;
+    }
+
+    #pp4{
+        color:orangered;
+    padding-top: 75px;
+    visibility: hidden;
+    font-size: 50px
+    }
+    #five:hover #pp4{
+        visibility: visible;
+    
+    }
+    #five:hover .overlay1{
+        visibility: visible;
+    }
+    #six{
+        background-image: url("../Delani-studio/assets/portfolio/work6.jpg");
+     height:230px;
+    padding: 0;
+    margin: 0;
+    }
+
+    #pp5{
+        color:orangered;
+    padding-top: 75px;
+    visibility: hidden;
+    font-size: 40px;
+    }
+    #six:hover #pp5{
+        visibility: visible;
+    
+    }
+    #six:hover .overlay1{
+        visibility: visible;
+    }
+    #seven{
+        background-image: url("../Delani-studio/assets/portfolio/work7.jpg");
+        height:230px;
+        padding: 0;
+        margin: 0;
+    }
+
+    #pp6{
+        color: orangered;
+        padding-top: 75px;
+        visibility: hidden;
+        font-size: 50px;
+    }
+    #seven:hover #pp6{
+        visibility: visible;
+    
+    }
+    #seven:hover .overlay1{
+        visibility: visible;
+    }
+    #eight{
+        background-image: url("../Delani-studio/assets/portfolio/work8.jpg");
+        height:230px;
+        margin: 0;
+    }
+
+    #pp7{
+        color: orangered;
+        padding-top: 75px;
+        visibility: hidden;
+        font-size: 50px;
+    }
+    #eight:hover #pp7{
+        visibility: visible;
+    
+    }
+    #eight:hover .overlay1{
+        visibility: visible;
+    }
