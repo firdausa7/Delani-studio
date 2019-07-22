@@ -7,8 +7,11 @@ This is a Portfolio for delani studio.
 
 
 ## Screenshot
+<img src="Screenshot.png">
 
 ## Live page
+
+[https://firdausa7.github.io/Delani-studio/]
 
 ## Installation
 * Open Terminal {Ctrl+Alt+T}
