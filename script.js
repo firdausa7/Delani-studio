@@ -39,6 +39,17 @@ $("#p3").click(function () {
       return false;
      */
     
-    $("#button").click(function(){
-        alert("THANK YOU, HAVE A NICE DAY");
+    // $("#button").click(function(){
+    //     alert("THANK YOU, HAVE A NICE DAY");
+    //   });
+    $("form.foem").submit(function(){
+        var name = $("input#name").val();
+        var email = $("input#email").val();
+        if ($("input#name").val() && $("input#email").val()){
+          alert (name + ", we have received your message. Thank you for reaching out to us.");
+        }
+        else {
+          alert("Please enter your details!");
+        }
+        
       });

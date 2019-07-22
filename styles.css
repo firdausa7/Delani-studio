@@ -89,3 +89,20 @@ input[type=text],input[type=email],#textarea{
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); }
   }
+.overlay1{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 180px;
+    display: none;
+
+}
+#one{
+    background-image: url("../Delani-studio/assets/portfolio/work4.jpg");
+    height:180px;
+}
+#one:hover{
+
+}
+img:hover{
+    opacity: 0.3;
+    
+}
