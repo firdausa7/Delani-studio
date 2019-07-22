@@ -102,7 +102,7 @@ input[type=text],input[type=email],#textarea{
     margin: 0;
 }
 #pp{
-    color: orangered;
+    color: blueviolet;
 padding-top: 75px;
 visibility: hidden;
 font-size: 50px
@@ -126,10 +126,10 @@ img:hover{
 
 }
 #pp1{
-    color: orangered;
+    color: aqua;
 padding-top: 75px;
 visibility: hidden;
-font-size: 50px
+font-size: 40px
 }
 #two:hover #pp1{
     visibility: visible;
@@ -148,7 +148,7 @@ font-size: 50px
         color: orangered;
     padding-top: 75px;
     visibility: hidden;
-    font-size: 50px;
+    font-size: 30px;
     }
     #three:hover #pp2{
         visibility: visible;
@@ -168,7 +168,7 @@ font-size: 50px
         color: orangered;
     padding-top: 75px;
     visibility: hidden;
-    font-size: 50px;
+    font-size: 40px;
     }
     #four:hover #pp3{
         visibility: visible;
@@ -188,7 +188,7 @@ font-size: 50px
         color:orangered;
     padding-top: 75px;
     visibility: hidden;
-    font-size: 50px
+    font-size: 40px
     }
     #five:hover #pp4{
         visibility: visible;
@@ -228,7 +228,7 @@ font-size: 50px
         color: orangered;
         padding-top: 75px;
         visibility: hidden;
-        font-size: 50px;
+        font-size: 40px;
     }
     #seven:hover #pp6{
         visibility: visible;
@@ -247,7 +247,7 @@ font-size: 50px
         color: orangered;
         padding-top: 75px;
         visibility: hidden;
-        font-size: 50px;
+        font-size: 40px;
     }
     #eight:hover #pp7{
         visibility: visible;
