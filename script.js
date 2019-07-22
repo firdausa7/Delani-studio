@@ -25,10 +25,6 @@ $("#p3").click(function () {
     $("#d3").show();
 });
 
-// Get the logo, and when the user clicks on it, execute myFunction
-//document.getElementById("#pic2").onclick = function() {myFunction()};
-//$("#pic2").attr("href", "https://www.youtube.com/watch?v=S-Ui9wzcO5g");
-
   $("#pic1").click(function(){
   $("#pic1").slideUp(2000).slideDown(2000);
 });
@@ -46,7 +42,7 @@ $("#p3").click(function () {
         var name = $("input#name").val();
         var email = $("input#email").val();
         if ($("input#name").val() && $("input#email").val()){
-          alert (name + ", we have received your message. Thank you for reaching out to us.");
+          alert (name + ", we have received your message. Thank you for your subscription!.");
         }
         else {
           alert("Please enter your details!");
