@@ -3,7 +3,7 @@
 [Firdausa-Salat](https://github.com/firdausa7)
 
 ## Description
-This is a Portfolio for delani studio.
+This is a Portfolio for delani studio showing all previous projects we've worked on.
 
 
 ## Screenshot
